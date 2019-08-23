@@ -1,0 +1,190 @@
+body{
+
+background: url(../images);
+
+}
+.site{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.text-logo{
+  color:#ffa500;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  background: #1c1c1c;
+  height: 100px;
+  padding-top: 25px;
+
+}
+.text-logo .glyphicon{
+  color:red;
+}
+.contact{
+  color:red;
+  font-size: 100%;
+}
+.nav{margin-bottom:40px;
+  margin-left: 350px;
+  font-size: 25px;
+
+}
+
+
+.thumbnail{
+  background-color:#f3f3f4;
+  width: 80%;
+  height: 420px;
+  margin:0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-left: 100px;
+
+}
+.thumbnail img{
+  width: 100%;
+  height: 65%;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+.price{
+  background: #5cb85c;
+  box-shadow: 0 1px rgb(0,0,0,0.2);
+  -moz-box-shadow:0 1px rgb(0,0,0,0.2);
+  -webkit-box-shadow:0 1px rgb(0,0,0,0.2);
+  color:#fff;
+  text-shadow: 2px 2px #333;
+  position: absolute;
+  right: -5%;
+  top: 7px;
+  padding:2px 5px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.price:before{
+  border:4px solid transparent;
+  border-bottom: 4px solid #4a934a;
+  border-left: 4px solid #4a934a;
+  content:"";
+  position: absolute;
+  right: 1px;
+  top: -8px;
+}
+
+.caption >h4{
+  color:#1a9f9b;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: #3a9b71;font-size:;
+}
+.nav>li>a>focus, .nav>li>a:hover{
+  color:white;
+  background: black;
+}
+.nav>li>a{
+  color:black;
+  font-size: 12px;
+
+}
+.btn-order{
+  width:100%;
+  padding: 10px;
+  font-size: 12px;
+  color:red;
+  background-color: #4a934a;
+  text-decoration: none;
+
+}
+.btn-order:hover, .btn-order:focus{
+  color:#fff;
+  background-color: black;
+}
+
+
+/*PAGE D'ADMINISTRATION*/
+.admin{
+  background: rgb(192,192,192);
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  height: auto;
+}
+.view{
+  background:#28313e;
+
+
+}
+.form-group{
+  color:black;
+  font-size: 20px;
+  padding: 0px;
+  margin-left:200px;
+  font-family: serif;
+
+}
+.form-action{
+  margin-left: 200px;
+}
+.view h1{
+  font-size: 35px;
+  text-align: center;
+  color:#ffd700;
+
+}
+.Lprice{
+  background: #5cb85c;
+  box-shadow: 0 1px rgb(0,0,0,0.2);
+  -moz-box-shadow:0 1px rgb(0,0,0,0.2);
+  -webkit-box-shadow:0 1px rgb(0,0,0,0.2);
+  color:#fff;
+  text-shadow: 2px 2px #333;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+  padding:2px 5px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.Lprice:before{
+  border:4px solid transparent;
+  border-bottom: 4px solid #4a934a;
+  border-left: 4px solid #4a934a;
+  content:"";
+  position: absolute;
+  right: 1px;
+  top: -8px;
+}
+.help-inline{
+  color:red;
+}
+/*FOOTER*/
+
+.footer{
+  background:#1c1c1c;
+  padding: 0px;
+  height: 150px;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer .glyphicon{
+  font-size: 30px;
+  margin: 30px;
+  color:white;
+  height: 30px;
+}
+.footer .glyphicon:hover{
+  font-size: 27px;
+}
+.footer h5{
+  color:white;
+  font-weight: normal;
+  font-weight: bold;
+  font-style: italic;
+  font-style: uppercase
+}
+.thanks{
+  color:red;
+  text-align: center;
+
+}
